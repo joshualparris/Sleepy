@@ -51,4 +51,4 @@ Each item uses:
 - Keep tags lowercase and hyphenated if more than one word.
 - Do not add duplicate titles.
 - Prefer known calm channels and videos already reviewed by a parent.
-- After editing `library.json`, mirror changes into `index.html` until a generation script exists.
+- After editing `library.json`, run `node scripts/sync-library.mjs` to update the embedded library in `index.html`.

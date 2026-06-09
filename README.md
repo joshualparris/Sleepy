@@ -55,6 +55,8 @@ docs/
 
 The deployed app currently embeds the library data inside `index.html`. `library.json` is the clean source of record for reviewing and maintaining the library.
 
+After editing the library, run `node scripts/sync-library.mjs` to regenerate the embedded copy.
+
 ## Safety Model
 
 This project intentionally avoids live feed browsing. However, videos still open on YouTube, so all content should be parent-reviewed before bedtime use.
